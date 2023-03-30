@@ -31,13 +31,14 @@ export const AppReducer = (state, action) => {
 const initialState = {
 	budget: 2000,
 	expenses: [
-		{ id: uuidv4(), name: 'Shopping', cost: 50 },
+		{ id: uuidv4(), name: 'Shopping', cost: 50 }, 
 		{ id: uuidv4(), name: 'Holiday', cost: 300 },
 		{ id: uuidv4(), name: 'Transportation', cost: 70 },
 		{ id: uuidv4(), name: 'Fuel', cost: 40 },
 		{ id: uuidv4(), name: 'Child Care', cost: 500 },
 	],
 };
+// These values are the initial value which can be changed by the user
 
 // 2. Creates the context this is the thing our components import and use to get the state
 export const AppContext = createContext();

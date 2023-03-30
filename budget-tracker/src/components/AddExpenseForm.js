@@ -27,7 +27,7 @@ const AddExpenseForm = (props) => {
 
 	return (
 		<form onSubmit={onSubmit}>
-			<div class='row'>
+			<div class='row' >
 				<div class='col-sm col-lg-4'>
 					<label for='name'>Name</label>
 					<input
